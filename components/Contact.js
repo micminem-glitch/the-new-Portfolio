@@ -16,10 +16,10 @@ export default function Contact() {
         <div className="contact-grid">
           <a
             className="contact-card"
-            href="mailto:micminem@gmail.com"
+            href="mailto:webdevmicheal@gmail.com"
           >
             <div className="contact-label">Email</div>
-            <div className="contact-value">micminem@gmail.com</div>
+            <div className="contact-value">webdevmicheal@gmail.com</div>
           </a>
 
           <a
