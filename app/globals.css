@@ -362,8 +362,8 @@
 
   /* contact */
   .contact-grid{
-    display:grid; grid-template-columns: 1fr 1fr; gap: 20px;
-  }
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;
+}
   .contact-card{
     background: var(--surface);
     border: 1px solid var(--line);
