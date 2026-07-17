@@ -11,7 +11,7 @@ export default function Footer() {
           gap: 8,
         }}
       >
-        <span>© {new Date().getFullYear()} Micheal Nwgbolu</span>
+        <span>© {new Date().getFullYear()} Micheal Nwagbolu</span>
         <span>github.com/micminem-glitch</span>
       </div>
     </footer>

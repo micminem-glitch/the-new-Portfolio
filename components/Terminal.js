@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 
 const sequence = [
   { type: "cmd", text: "whoami" },
-  { type: "out", text: "micheal_nwgbolu — full stack developer, freelance" },
+  { type: "out", text: "micheal_nwagbolu — full stack developer, freelance" },
   { type: "cmd", text: "ls projects/" },
   { type: "out", text: "hexafox-united/  emmy-photography/" },
   { type: "cmd", text: "cat availability.txt" },

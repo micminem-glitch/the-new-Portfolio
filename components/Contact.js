@@ -34,7 +34,7 @@ export default function Contact() {
 
           <a
             className="contact-card"
-            href="/resume/Micheal_Nwgbolu_Resume.pdf"
+            href="/resume/Micheal_Nwagbolu_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

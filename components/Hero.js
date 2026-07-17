@@ -10,7 +10,7 @@ export default function Hero() {
           <h1 className="name">
             Micheal
             <br />
-            Nwgbolu
+            Nwagbolu
             <br />
             <em>builds the whole stack.</em>
           </h1>
@@ -28,7 +28,7 @@ export default function Hero() {
 
             <a
               className="btn btn-ghost"
-              href="/resume/Micheal_Nwgbolu_Resume.pdf"
+              href="/resume/Micheal_Nwagbolu_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
