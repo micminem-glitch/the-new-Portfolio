@@ -4,7 +4,7 @@ export default function CaseStudies() {
       <div className="section-head">
         <div className="wrap" style={{ padding: 0 }}>
           <p className="kicker">Selected work</p>
-          <h2>Two projects, built end to end</h2>
+          <h2>Three projects, built end to end</h2>
         </div>
       </div>
       <div className="wrap">
@@ -100,6 +100,60 @@ export default function CaseStudies() {
             <div className="case-links">
               <a
                 href="https://emmypho.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View live site →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="case">
+          <div className="case-media">
+            <div className="browser-mock mock-czas">
+              <div className="browser-bar">
+                <span className="dot r"></span>
+                <span className="dot y"></span>
+                <span className="dot g"></span>
+                <span className="browser-url">cza-s-booth.vercel.app</span>
+              </div>
+              <div className="browser-canvas">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/assets/czas-booth-screenshot.jpg"
+                  alt="Cza&apos;s Booth street photography archive — polaroid gallery"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "100%",
+                    maxWidth: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="case-copy">
+            <span className="case-tag tag-client">Client work · photography portfolio</span>
+            <h3>Cza&apos;s Booth</h3>
+            <p>
+              A visual archive for a street &amp; documentary photographer in
+              Port Harcourt. I built the full site: an editorial hero, a
+              filterable gallery (street life, night, portraits, polaroids),
+              a dedicated polaroid section, an image lightbox with title,
+              location and camera details, and an inquiry contact — designed
+              to let raw street photography carry the page.
+            </p>
+            <div className="case-meta">
+              <span className="chip">Next.js</span>
+              <span className="chip">Filterable gallery</span>
+              <span className="chip">Lightbox</span>
+            </div>
+            <div className="case-links">
+              <a
+                href="https://cza-s-booth.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
